@@ -1,0 +1,34 @@
+{
+  "source": "Executed notebook: displayed summary table and training stream",
+  "summary_precision": "Six decimals as displayed; not the original full-precision metrics.json",
+  "summary": {
+    "run": "E_warmup5_s0",
+    "part": "E",
+    "seed": 0,
+    "compare_with": "ref_s0",
+    "weighted_F1": 0.889665,
+    "macro_F1": 0.60091,
+    "accuracy": 0.892012,
+    "delta_weighted_F1": 0.002375,
+    "delta_macro_F1": 0.009721,
+    "parameters": 3965778,
+    "best_epoch": 57,
+    "training_minutes": 23.671057,
+    "window": 24,
+    "n_conv": 4,
+    "dropout": 0.5,
+    "weight_decay": 0.0,
+    "augmentation": false,
+    "loss": "cross_entropy",
+    "warmup_epochs": 5
+  },
+  "logged_metadata": {
+    "device": "cuda",
+    "training_windows": 41399,
+    "validation_windows": 5076,
+    "test_windows": 9890,
+    "channels": 113,
+    "classes": 18,
+    "last_epoch": 77
+  }
+}
