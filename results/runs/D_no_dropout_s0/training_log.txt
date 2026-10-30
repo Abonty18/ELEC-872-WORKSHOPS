@@ -1,0 +1,98 @@
+Running D_no_dropout; comparison baseline: D_ref
+[D_no_dropout_s0] device=cuda  windows train/val/test = 41399/5076/9890  channels=113  classes=18
+parameters: 3,965,778
+epoch   1  lr 0.001  train_loss[cross_entropy] 1.0675  val_CE 0.7838  val_F1w 0.7604  val_F1m 0.1354  (19s) *
+epoch   2  lr 0.001  train_loss[cross_entropy] 0.6796  val_CE 0.5438  val_F1w 0.8094  val_F1m 0.2789  (39s) *
+epoch   3  lr 0.001  train_loss[cross_entropy] 0.6043  val_CE 0.5284  val_F1w 0.8199  val_F1m 0.2984  (58s) *
+epoch   4  lr 0.001  train_loss[cross_entropy] 0.5523  val_CE 0.4982  val_F1w 0.8196  val_F1m 0.3236  (76s)
+epoch   5  lr 0.001  train_loss[cross_entropy] 0.5147  val_CE 0.4899  val_F1w 0.8362  val_F1m 0.3646  (95s) *
+epoch   6  lr 0.001  train_loss[cross_entropy] 0.4805  val_CE 0.4713  val_F1w 0.8342  val_F1m 0.3782  (113s)
+epoch   7  lr 0.001  train_loss[cross_entropy] 0.4499  val_CE 0.4600  val_F1w 0.8469  val_F1m 0.4157  (132s) *
+epoch   8  lr 0.001  train_loss[cross_entropy] 0.4244  val_CE 0.4362  val_F1w 0.8478  val_F1m 0.4095  (151s) *
+epoch   9  lr 0.001  train_loss[cross_entropy] 0.4067  val_CE 0.4543  val_F1w 0.8509  val_F1m 0.4314  (169s) *
+epoch  10  lr 0.001  train_loss[cross_entropy] 0.3776  val_CE 0.4245  val_F1w 0.8626  val_F1m 0.4691  (188s) *
+epoch  11  lr 0.001  train_loss[cross_entropy] 0.3606  val_CE 0.4433  val_F1w 0.8585  val_F1m 0.4722  (206s)
+epoch  12  lr 0.001  train_loss[cross_entropy] 0.3492  val_CE 0.4353  val_F1w 0.8592  val_F1m 0.4826  (225s)
+epoch  13  lr 0.001  train_loss[cross_entropy] 0.3283  val_CE 0.4218  val_F1w 0.8616  val_F1m 0.4796  (244s)
+epoch  14  lr 0.001  train_loss[cross_entropy] 0.3195  val_CE 0.5220  val_F1w 0.8385  val_F1m 0.4029  (262s)
+epoch  15  lr 0.001  train_loss[cross_entropy] 0.3056  val_CE 0.4270  val_F1w 0.8661  val_F1m 0.5078  (281s) *
+epoch  16  lr 0.001  train_loss[cross_entropy] 0.2899  val_CE 0.4354  val_F1w 0.8608  val_F1m 0.4835  (300s)
+epoch  17  lr 0.001  train_loss[cross_entropy] 0.2856  val_CE 0.4259  val_F1w 0.8695  val_F1m 0.5246  (318s) *
+epoch  18  lr 0.001  train_loss[cross_entropy] 0.2726  val_CE 0.4254  val_F1w 0.8715  val_F1m 0.5202  (337s) *
+epoch  19  lr 0.001  train_loss[cross_entropy] 0.2625  val_CE 0.4225  val_F1w 0.8696  val_F1m 0.5164  (355s)
+epoch  20  lr 0.001  train_loss[cross_entropy] 0.2539  val_CE 0.4441  val_F1w 0.8621  val_F1m 0.5192  (374s)
+epoch  21  lr 0.001  train_loss[cross_entropy] 0.2458  val_CE 0.4295  val_F1w 0.8648  val_F1m 0.5003  (392s)
+epoch  22  lr 0.001  train_loss[cross_entropy] 0.2333  val_CE 0.4538  val_F1w 0.8656  val_F1m 0.5166  (411s)
+epoch  23  lr 0.001  train_loss[cross_entropy] 0.2291  val_CE 0.4618  val_F1w 0.8642  val_F1m 0.4594  (429s)
+epoch  24  lr 0.001  train_loss[cross_entropy] 0.2253  val_CE 0.4181  val_F1w 0.8765  val_F1m 0.5798  (448s) *
+epoch  25  lr 0.001  train_loss[cross_entropy] 0.2142  val_CE 0.4381  val_F1w 0.8702  val_F1m 0.5520  (466s)
+epoch  26  lr 0.001  train_loss[cross_entropy] 0.2090  val_CE 0.4483  val_F1w 0.8758  val_F1m 0.5597  (485s)
+epoch  27  lr 0.001  train_loss[cross_entropy] 0.2012  val_CE 0.4475  val_F1w 0.8724  val_F1m 0.5589  (503s)
+epoch  28  lr 0.001  train_loss[cross_entropy] 0.1982  val_CE 0.4413  val_F1w 0.8707  val_F1m 0.5518  (522s)
+epoch  29  lr 0.001  train_loss[cross_entropy] 0.1916  val_CE 0.4395  val_F1w 0.8705  val_F1m 0.5469  (540s)
+epoch  30  lr 0.001  train_loss[cross_entropy] 0.1877  val_CE 0.4349  val_F1w 0.8805  val_F1m 0.5918  (559s) *
+epoch  31  lr 0.001  train_loss[cross_entropy] 0.1838  val_CE 0.4513  val_F1w 0.8728  val_F1m 0.5676  (577s)
+epoch  32  lr 0.001  train_loss[cross_entropy] 0.1778  val_CE 0.4591  val_F1w 0.8722  val_F1m 0.5258  (596s)
+epoch  33  lr 0.001  train_loss[cross_entropy] 0.1763  val_CE 0.4533  val_F1w 0.8685  val_F1m 0.5676  (614s)
+epoch  34  lr 0.001  train_loss[cross_entropy] 0.1697  val_CE 0.4538  val_F1w 0.8724  val_F1m 0.5654  (632s)
+epoch  35  lr 0.001  train_loss[cross_entropy] 0.1625  val_CE 0.4660  val_F1w 0.8711  val_F1m 0.5672  (651s)
+epoch  36  lr 0.001  train_loss[cross_entropy] 0.1591  val_CE 0.4806  val_F1w 0.8689  val_F1m 0.5427  (669s)
+epoch  37  lr 0.001  train_loss[cross_entropy] 0.1590  val_CE 0.4732  val_F1w 0.8694  val_F1m 0.5393  (688s)
+epoch  38  lr 0.001  train_loss[cross_entropy] 0.1582  val_CE 0.4651  val_F1w 0.8729  val_F1m 0.5687  (706s)
+epoch  39  lr 0.001  train_loss[cross_entropy] 0.1508  val_CE 0.4761  val_F1w 0.8707  val_F1m 0.5665  (725s)
+epoch  40  lr 0.001  train_loss[cross_entropy] 0.1482  val_CE 0.5264  val_F1w 0.8608  val_F1m 0.5372  (743s)
+epoch  41  lr 0.001  train_loss[cross_entropy] 0.1499  val_CE 0.4900  val_F1w 0.8701  val_F1m 0.5813  (762s)
+epoch  42  lr 0.001  train_loss[cross_entropy] 0.1436  val_CE 0.4945  val_F1w 0.8667  val_F1m 0.5434  (780s)
+epoch  43  lr 0.001  train_loss[cross_entropy] 0.1453  val_CE 0.4807  val_F1w 0.8754  val_F1m 0.5580  (798s)
+epoch  44  lr 0.001  train_loss[cross_entropy] 0.1384  val_CE 0.5132  val_F1w 0.8716  val_F1m 0.5446  (817s)
+epoch  45  lr 0.001  train_loss[cross_entropy] 0.1399  val_CE 0.5053  val_F1w 0.8722  val_F1m 0.5728  (835s)
+epoch  46  lr 0.001  train_loss[cross_entropy] 0.1355  val_CE 0.4898  val_F1w 0.8822  val_F1m 0.5858  (854s) *
+epoch  47  lr 0.001  train_loss[cross_entropy] 0.1294  val_CE 0.5131  val_F1w 0.8686  val_F1m 0.5427  (872s)
+epoch  48  lr 0.001  train_loss[cross_entropy] 0.1285  val_CE 0.5293  val_F1w 0.8631  val_F1m 0.5461  (890s)
+epoch  49  lr 0.001  train_loss[cross_entropy] 0.1293  val_CE 0.5087  val_F1w 0.8740  val_F1m 0.5584  (909s)
+epoch  50  lr 0.001  train_loss[cross_entropy] 0.1304  val_CE 0.4808  val_F1w 0.8798  val_F1m 0.5886  (927s)
+epoch  51  lr 0.001  train_loss[cross_entropy] 0.1266  val_CE 0.4992  val_F1w 0.8800  val_F1m 0.5808  (946s)
+epoch  52  lr 0.001  train_loss[cross_entropy] 0.1235  val_CE 0.4944  val_F1w 0.8716  val_F1m 0.5720  (964s)
+epoch  53  lr 0.001  train_loss[cross_entropy] 0.1218  val_CE 0.5182  val_F1w 0.8667  val_F1m 0.5622  (983s)
+epoch  54  lr 0.001  train_loss[cross_entropy] 0.1180  val_CE 0.5094  val_F1w 0.8814  val_F1m 0.5780  (1001s)
+epoch  55  lr 0.001  train_loss[cross_entropy] 0.1176  val_CE 0.4967  val_F1w 0.8689  val_F1m 0.5500  (1020s)
+epoch  56  lr 0.001  train_loss[cross_entropy] 0.1154  val_CE 0.5276  val_F1w 0.8681  val_F1m 0.5620  (1038s)
+epoch  57  lr 0.001  train_loss[cross_entropy] 0.1160  val_CE 0.5152  val_F1w 0.8758  val_F1m 0.5649  (1056s)
+epoch  58  lr 0.001  train_loss[cross_entropy] 0.1190  val_CE 0.4772  val_F1w 0.8720  val_F1m 0.5690  (1075s)
+epoch  59  lr 0.001  train_loss[cross_entropy] 0.1152  val_CE 0.5020  val_F1w 0.8766  val_F1m 0.5718  (1093s)
+epoch  60  lr 0.001  train_loss[cross_entropy] 0.1134  val_CE 0.4977  val_F1w 0.8759  val_F1m 0.5909  (1112s)
+epoch  61  lr 0.001  train_loss[cross_entropy] 0.1128  val_CE 0.5335  val_F1w 0.8717  val_F1m 0.5549  (1130s)
+epoch  62  lr 0.001  train_loss[cross_entropy] 0.1084  val_CE 0.5540  val_F1w 0.8612  val_F1m 0.5531  (1148s)
+epoch  63  lr 0.001  train_loss[cross_entropy] 0.1080  val_CE 0.5166  val_F1w 0.8696  val_F1m 0.5558  (1167s)
+epoch  64  lr 0.001  train_loss[cross_entropy] 0.1067  val_CE 0.5363  val_F1w 0.8720  val_F1m 0.5546  (1185s)
+epoch  65  lr 0.001  train_loss[cross_entropy] 0.1029  val_CE 0.5495  val_F1w 0.8687  val_F1m 0.5561  (1204s)
+epoch  66  lr 0.001  train_loss[cross_entropy] 0.1029  val_CE 0.5243  val_F1w 0.8803  val_F1m 0.5968  (1222s)
+early stopping (no val improvement for 20 epochs)
+                  precision    recall  f1-score   support
+
+            Null      0.940     0.955     0.947      8235
+     Open Door 1      0.712     0.638     0.673        58
+     Open Door 2      0.823     0.849     0.836        93
+    Close Door 1      0.745     0.683     0.713        60
+    Close Door 2      0.755     0.866     0.807        82
+     Open Fridge      0.843     0.396     0.538       230
+    Close Fridge      0.742     0.752     0.747       157
+ Open Dishwasher      0.408     0.510     0.453       100
+Close Dishwasher      0.440     0.564     0.494        78
+   Open Drawer 1      0.327     0.410     0.364        39
+  Close Drawer 1      0.329     0.595     0.424        42
+   Open Drawer 2      0.385     0.250     0.303        40
+  Close Drawer 2      0.381     0.296     0.333        27
+   Open Drawer 3      0.684     0.600     0.639        65
+  Close Drawer 3      0.433     0.867     0.578        60
+     Clean Table      0.911     0.414     0.569        99
+  Drink from Cup      0.636     0.544     0.586       318
+   Toggle Switch      0.742     0.430     0.544       107
+
+        accuracy                          0.891      9890
+       macro avg      0.624     0.590     0.586      9890
+    weighted avg      0.894     0.891     0.888      9890
+
+TEST  weighted F1 = 0.8881   macro F1 = 0.5861   accuracy = 0.8908   (best epoch 46, 20.4 min training)
+results saved to runs/D_no_dropout_s0/
+
