@@ -1,0 +1,91 @@
+Running ref; comparison baseline: this is a baseline
+[ref_s0] device=cuda  windows train/val/test = 41399/5076/9890  channels=113  classes=18
+parameters: 3,965,778
+epoch   1  lr 0.001  train_loss[cross_entropy] 1.0629  val_CE 0.5854  val_F1w 0.7956  val_F1m 0.2263  (18s) *
+epoch   2  lr 0.001  train_loss[cross_entropy] 0.6062  val_CE 0.4891  val_F1w 0.8280  val_F1m 0.3207  (35s) *
+epoch   3  lr 0.001  train_loss[cross_entropy] 0.5112  val_CE 0.5295  val_F1w 0.8180  val_F1m 0.2968  (52s)
+epoch   4  lr 0.001  train_loss[cross_entropy] 0.4604  val_CE 0.4926  val_F1w 0.8340  val_F1m 0.3625  (70s) *
+epoch   5  lr 0.001  train_loss[cross_entropy] 0.4267  val_CE 0.5253  val_F1w 0.8345  val_F1m 0.3695  (89s) *
+epoch   6  lr 0.001  train_loss[cross_entropy] 0.3976  val_CE 0.4873  val_F1w 0.8471  val_F1m 0.4074  (108s) *
+epoch   7  lr 0.001  train_loss[cross_entropy] 0.3752  val_CE 0.4827  val_F1w 0.8540  val_F1m 0.4573  (127s) *
+epoch   8  lr 0.001  train_loss[cross_entropy] 0.3557  val_CE 0.4797  val_F1w 0.8523  val_F1m 0.4497  (145s)
+epoch   9  lr 0.001  train_loss[cross_entropy] 0.3372  val_CE 0.4492  val_F1w 0.8556  val_F1m 0.4786  (164s) *
+epoch  10  lr 0.001  train_loss[cross_entropy] 0.3187  val_CE 0.4814  val_F1w 0.8651  val_F1m 0.4748  (183s) *
+epoch  11  lr 0.001  train_loss[cross_entropy] 0.3057  val_CE 0.4470  val_F1w 0.8637  val_F1m 0.4657  (201s)
+epoch  12  lr 0.001  train_loss[cross_entropy] 0.2948  val_CE 0.4591  val_F1w 0.8690  val_F1m 0.4998  (220s) *
+epoch  13  lr 0.001  train_loss[cross_entropy] 0.2815  val_CE 0.4464  val_F1w 0.8733  val_F1m 0.5009  (238s) *
+epoch  14  lr 0.001  train_loss[cross_entropy] 0.2706  val_CE 0.4624  val_F1w 0.8708  val_F1m 0.4985  (257s)
+epoch  15  lr 0.001  train_loss[cross_entropy] 0.2552  val_CE 0.5050  val_F1w 0.8712  val_F1m 0.5098  (276s)
+epoch  16  lr 0.001  train_loss[cross_entropy] 0.2498  val_CE 0.4529  val_F1w 0.8772  val_F1m 0.5559  (294s) *
+epoch  17  lr 0.001  train_loss[cross_entropy] 0.2468  val_CE 0.4414  val_F1w 0.8813  val_F1m 0.5507  (313s) *
+epoch  18  lr 0.001  train_loss[cross_entropy] 0.2369  val_CE 0.4895  val_F1w 0.8754  val_F1m 0.5383  (331s)
+epoch  19  lr 0.001  train_loss[cross_entropy] 0.2296  val_CE 0.4558  val_F1w 0.8813  val_F1m 0.5599  (350s)
+epoch  20  lr 0.001  train_loss[cross_entropy] 0.2208  val_CE 0.4765  val_F1w 0.8759  val_F1m 0.5246  (368s)
+epoch  21  lr 0.001  train_loss[cross_entropy] 0.2139  val_CE 0.4929  val_F1w 0.8795  val_F1m 0.5291  (387s)
+epoch  22  lr 0.001  train_loss[cross_entropy] 0.2113  val_CE 0.4539  val_F1w 0.8854  val_F1m 0.5712  (405s) *
+epoch  23  lr 0.001  train_loss[cross_entropy] 0.2085  val_CE 0.4834  val_F1w 0.8872  val_F1m 0.5652  (424s) *
+epoch  24  lr 0.001  train_loss[cross_entropy] 0.2056  val_CE 0.5092  val_F1w 0.8720  val_F1m 0.5379  (442s)
+epoch  25  lr 0.001  train_loss[cross_entropy] 0.1984  val_CE 0.4874  val_F1w 0.8812  val_F1m 0.5454  (460s)
+epoch  26  lr 0.001  train_loss[cross_entropy] 0.1959  val_CE 0.4672  val_F1w 0.8874  val_F1m 0.5578  (479s) *
+epoch  27  lr 0.001  train_loss[cross_entropy] 0.1885  val_CE 0.5098  val_F1w 0.8847  val_F1m 0.5695  (497s)
+epoch  28  lr 0.001  train_loss[cross_entropy] 0.1887  val_CE 0.5539  val_F1w 0.8769  val_F1m 0.5407  (516s)
+epoch  29  lr 0.001  train_loss[cross_entropy] 0.1825  val_CE 0.4889  val_F1w 0.8819  val_F1m 0.5792  (534s)
+epoch  30  lr 0.001  train_loss[cross_entropy] 0.1808  val_CE 0.4669  val_F1w 0.8880  val_F1m 0.5909  (553s) *
+epoch  31  lr 0.001  train_loss[cross_entropy] 0.1782  val_CE 0.4517  val_F1w 0.8799  val_F1m 0.5625  (571s)
+epoch  32  lr 0.001  train_loss[cross_entropy] 0.1703  val_CE 0.5867  val_F1w 0.8836  val_F1m 0.5863  (589s)
+epoch  33  lr 0.001  train_loss[cross_entropy] 0.1700  val_CE 0.6175  val_F1w 0.8793  val_F1m 0.5624  (608s)
+epoch  34  lr 0.001  train_loss[cross_entropy] 0.1663  val_CE 0.5550  val_F1w 0.8656  val_F1m 0.5262  (626s)
+epoch  35  lr 0.001  train_loss[cross_entropy] 0.1661  val_CE 0.4696  val_F1w 0.8872  val_F1m 0.5582  (645s)
+epoch  36  lr 0.001  train_loss[cross_entropy] 0.1589  val_CE 0.6349  val_F1w 0.8797  val_F1m 0.5649  (663s)
+epoch  37  lr 0.001  train_loss[cross_entropy] 0.1619  val_CE 0.5179  val_F1w 0.8893  val_F1m 0.5808  (682s) *
+epoch  38  lr 0.001  train_loss[cross_entropy] 0.1582  val_CE 0.5475  val_F1w 0.8902  val_F1m 0.6037  (700s) *
+epoch  39  lr 0.001  train_loss[cross_entropy] 0.1558  val_CE 0.5917  val_F1w 0.8817  val_F1m 0.5580  (718s)
+epoch  40  lr 0.001  train_loss[cross_entropy] 0.1568  val_CE 0.5364  val_F1w 0.8836  val_F1m 0.5647  (737s)
+epoch  41  lr 0.001  train_loss[cross_entropy] 0.1513  val_CE 0.5962  val_F1w 0.8842  val_F1m 0.5785  (755s)
+epoch  42  lr 0.001  train_loss[cross_entropy] 0.1515  val_CE 0.5647  val_F1w 0.8775  val_F1m 0.5676  (773s)
+epoch  43  lr 0.001  train_loss[cross_entropy] 0.1515  val_CE 0.5510  val_F1w 0.8841  val_F1m 0.5856  (792s)
+epoch  44  lr 0.001  train_loss[cross_entropy] 0.1478  val_CE 0.6205  val_F1w 0.8802  val_F1m 0.5652  (810s)
+epoch  45  lr 0.001  train_loss[cross_entropy] 0.1427  val_CE 0.6146  val_F1w 0.8806  val_F1m 0.5772  (828s)
+epoch  46  lr 0.001  train_loss[cross_entropy] 0.1421  val_CE 0.6072  val_F1w 0.8754  val_F1m 0.5531  (847s)
+epoch  47  lr 0.001  train_loss[cross_entropy] 0.1411  val_CE 0.5478  val_F1w 0.8881  val_F1m 0.5877  (865s)
+epoch  48  lr 0.001  train_loss[cross_entropy] 0.1366  val_CE 0.6454  val_F1w 0.8796  val_F1m 0.5626  (883s)
+epoch  49  lr 0.001  train_loss[cross_entropy] 0.1419  val_CE 0.6519  val_F1w 0.8851  val_F1m 0.6022  (902s)
+epoch  50  lr 0.001  train_loss[cross_entropy] 0.1322  val_CE 0.6657  val_F1w 0.8827  val_F1m 0.5834  (920s)
+epoch  51  lr 0.001  train_loss[cross_entropy] 0.1338  val_CE 0.7185  val_F1w 0.8815  val_F1m 0.5613  (938s)
+epoch  52  lr 0.001  train_loss[cross_entropy] 0.1323  val_CE 0.7960  val_F1w 0.8785  val_F1m 0.5656  (957s)
+epoch  53  lr 0.001  train_loss[cross_entropy] 0.1316  val_CE 0.6892  val_F1w 0.8786  val_F1m 0.5883  (975s)
+epoch  54  lr 0.001  train_loss[cross_entropy] 0.1255  val_CE 0.6755  val_F1w 0.8868  val_F1m 0.5782  (993s)
+epoch  55  lr 0.001  train_loss[cross_entropy] 0.1292  val_CE 0.7321  val_F1w 0.8772  val_F1m 0.5825  (1012s)
+epoch  56  lr 0.001  train_loss[cross_entropy] 0.1226  val_CE 0.7280  val_F1w 0.8784  val_F1m 0.5601  (1030s)
+epoch  57  lr 0.001  train_loss[cross_entropy] 0.1228  val_CE 0.7614  val_F1w 0.8839  val_F1m 0.5829  (1048s)
+epoch  58  lr 0.001  train_loss[cross_entropy] 0.1280  val_CE 0.6494  val_F1w 0.8888  val_F1m 0.5918  (1067s)
+early stopping (no val improvement for 20 epochs)
+                  precision    recall  f1-score   support
+
+            Null      0.938     0.954     0.946      8235
+     Open Door 1      0.750     0.517     0.612        58
+     Open Door 2      0.902     0.796     0.846        93
+    Close Door 1      0.548     0.767     0.639        60
+    Close Door 2      0.835     0.866     0.850        82
+     Open Fridge      0.787     0.483     0.598       230
+    Close Fridge      0.771     0.771     0.771       157
+ Open Dishwasher      0.469     0.600     0.526       100
+Close Dishwasher      0.415     0.564     0.478        78
+   Open Drawer 1      0.350     0.538     0.424        39
+  Close Drawer 1      0.519     0.333     0.406        42
+   Open Drawer 2      0.294     0.250     0.270        40
+  Close Drawer 2      0.364     0.444     0.400        27
+   Open Drawer 3      0.657     0.677     0.667        65
+  Close Drawer 3      0.486     0.600     0.537        60
+     Clean Table      0.792     0.384     0.517        99
+  Drink from Cup      0.590     0.484     0.532       318
+   Toggle Switch      0.698     0.561     0.622       107
+
+        accuracy                          0.890      9890
+       macro avg      0.620     0.588     0.591      9890
+    weighted avg      0.890     0.890     0.887      9890
+
+TEST  weighted F1 = 0.8873   macro F1 = 0.5912   accuracy = 0.8898   (best epoch 38, 17.8 min training)
+results saved to runs/ref_s0/
+ref_s0                      F1w=0.8873 F1m=0.5912 compare=baseline
+Saved workshop_comparison.csv (deltas are score differences, not percentage changes).
