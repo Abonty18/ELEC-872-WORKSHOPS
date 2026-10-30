@@ -1,0 +1,34 @@
+{
+  "source": "Executed notebook: displayed summary table and training stream",
+  "summary_precision": "Six decimals as displayed; not the original full-precision metrics.json",
+  "summary": {
+    "run": "D_no_weight_decay_s0",
+    "part": "D",
+    "seed": 0,
+    "compare_with": "D_ref_s0",
+    "weighted_F1": 0.889611,
+    "macro_F1": 0.57621,
+    "accuracy": 0.891001,
+    "delta_weighted_F1": 0.002317,
+    "delta_macro_F1": 0.002288,
+    "parameters": 3965778,
+    "best_epoch": 43,
+    "training_minutes": 19.423868,
+    "window": 24,
+    "n_conv": 4,
+    "dropout": 0.5,
+    "weight_decay": 0.0,
+    "augmentation": true,
+    "loss": "cross_entropy",
+    "warmup_epochs": 0
+  },
+  "logged_metadata": {
+    "device": "cuda",
+    "training_windows": 41399,
+    "validation_windows": 5076,
+    "test_windows": 9890,
+    "channels": 113,
+    "classes": 18,
+    "last_epoch": 63
+  }
+}
