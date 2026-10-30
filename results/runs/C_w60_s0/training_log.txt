@@ -1,0 +1,75 @@
+Running C_w60; comparison baseline: ref
+[C_w60_s0] device=cuda  windows train/val/test = 41363/5070/9878  channels=113  classes=18
+parameters: 3,965,778
+epoch   1  lr 0.001  train_loss[cross_entropy] 1.0521  val_CE 0.5848  val_F1w 0.7893  val_F1m 0.2155  (73s) *
+epoch   2  lr 0.001  train_loss[cross_entropy] 0.6004  val_CE 0.4848  val_F1w 0.8311  val_F1m 0.3614  (145s) *
+epoch   3  lr 0.001  train_loss[cross_entropy] 0.4841  val_CE 0.4782  val_F1w 0.8452  val_F1m 0.4239  (217s) *
+epoch   4  lr 0.001  train_loss[cross_entropy] 0.4257  val_CE 0.4762  val_F1w 0.8404  val_F1m 0.4199  (289s)
+epoch   5  lr 0.001  train_loss[cross_entropy] 0.3781  val_CE 0.4722  val_F1w 0.8563  val_F1m 0.4884  (360s) *
+epoch   6  lr 0.001  train_loss[cross_entropy] 0.3359  val_CE 0.4340  val_F1w 0.8661  val_F1m 0.5095  (431s) *
+epoch   7  lr 0.001  train_loss[cross_entropy] 0.3119  val_CE 0.6230  val_F1w 0.8333  val_F1m 0.4309  (503s)
+epoch   8  lr 0.001  train_loss[cross_entropy] 0.2885  val_CE 0.5136  val_F1w 0.8595  val_F1m 0.5032  (574s)
+epoch   9  lr 0.001  train_loss[cross_entropy] 0.2697  val_CE 0.4530  val_F1w 0.8732  val_F1m 0.5518  (646s) *
+epoch  10  lr 0.001  train_loss[cross_entropy] 0.2527  val_CE 0.4665  val_F1w 0.8663  val_F1m 0.5239  (717s)
+epoch  11  lr 0.001  train_loss[cross_entropy] 0.2358  val_CE 0.4962  val_F1w 0.8629  val_F1m 0.5105  (789s)
+epoch  12  lr 0.001  train_loss[cross_entropy] 0.2255  val_CE 0.4409  val_F1w 0.8819  val_F1m 0.6084  (860s) *
+epoch  13  lr 0.001  train_loss[cross_entropy] 0.2127  val_CE 0.4753  val_F1w 0.8707  val_F1m 0.5502  (932s)
+epoch  14  lr 0.001  train_loss[cross_entropy] 0.2063  val_CE 0.4421  val_F1w 0.8788  val_F1m 0.5655  (1003s)
+epoch  15  lr 0.001  train_loss[cross_entropy] 0.1935  val_CE 0.4760  val_F1w 0.8823  val_F1m 0.5937  (1074s) *
+epoch  16  lr 0.001  train_loss[cross_entropy] 0.1827  val_CE 0.4320  val_F1w 0.8922  val_F1m 0.6499  (1145s) *
+epoch  17  lr 0.001  train_loss[cross_entropy] 0.1836  val_CE 0.5569  val_F1w 0.8714  val_F1m 0.5519  (1216s)
+epoch  18  lr 0.001  train_loss[cross_entropy] 0.1864  val_CE 0.4785  val_F1w 0.8834  val_F1m 0.6192  (1287s)
+epoch  19  lr 0.001  train_loss[cross_entropy] 0.1683  val_CE 0.4777  val_F1w 0.8806  val_F1m 0.5586  (1358s)
+epoch  20  lr 0.001  train_loss[cross_entropy] 0.1669  val_CE 0.5594  val_F1w 0.8749  val_F1m 0.5391  (1429s)
+epoch  21  lr 0.001  train_loss[cross_entropy] 0.1626  val_CE 0.5675  val_F1w 0.8800  val_F1m 0.5795  (1500s)
+epoch  22  lr 0.001  train_loss[cross_entropy] 0.1589  val_CE 0.5110  val_F1w 0.8877  val_F1m 0.6260  (1571s)
+epoch  23  lr 0.001  train_loss[cross_entropy] 0.1580  val_CE 0.6133  val_F1w 0.8796  val_F1m 0.5976  (1642s)
+epoch  24  lr 0.001  train_loss[cross_entropy] 0.1563  val_CE 0.5139  val_F1w 0.8843  val_F1m 0.6145  (1713s)
+epoch  25  lr 0.001  train_loss[cross_entropy] 0.1532  val_CE 0.5474  val_F1w 0.8798  val_F1m 0.5770  (1784s)
+epoch  26  lr 0.001  train_loss[cross_entropy] 0.1538  val_CE 0.5740  val_F1w 0.8804  val_F1m 0.5749  (1854s)
+epoch  27  lr 0.001  train_loss[cross_entropy] 0.1457  val_CE 0.5961  val_F1w 0.8734  val_F1m 0.5725  (1925s)
+epoch  28  lr 0.001  train_loss[cross_entropy] 0.1434  val_CE 0.5928  val_F1w 0.8789  val_F1m 0.5928  (1996s)
+epoch  29  lr 0.001  train_loss[cross_entropy] 0.1390  val_CE 0.5949  val_F1w 0.8832  val_F1m 0.6108  (2067s)
+epoch  30  lr 0.001  train_loss[cross_entropy] 0.1353  val_CE 0.8571  val_F1w 0.8582  val_F1m 0.5066  (2137s)
+epoch  31  lr 0.001  train_loss[cross_entropy] 0.1424  val_CE 0.6623  val_F1w 0.8674  val_F1m 0.5514  (2208s)
+epoch  32  lr 0.001  train_loss[cross_entropy] 0.1380  val_CE 0.5863  val_F1w 0.8843  val_F1m 0.6262  (2279s)
+epoch  33  lr 0.001  train_loss[cross_entropy] 0.1366  val_CE 0.6012  val_F1w 0.8673  val_F1m 0.5834  (2349s)
+epoch  34  lr 0.001  train_loss[cross_entropy] 0.1318  val_CE 0.6625  val_F1w 0.8864  val_F1m 0.6295  (2420s)
+epoch  35  lr 0.001  train_loss[cross_entropy] 0.1315  val_CE 0.5937  val_F1w 0.8835  val_F1m 0.6054  (2490s)
+epoch  36  lr 0.001  train_loss[cross_entropy] 0.1311  val_CE 0.5769  val_F1w 0.8818  val_F1m 0.5734  (2561s)
+early stopping (no val improvement for 20 epochs)
+                  precision    recall  f1-score   support
+
+            Null      0.951     0.949     0.950      8223
+     Open Door 1      0.617     0.638     0.627        58
+     Open Door 2      0.811     0.828     0.819        93
+    Close Door 1      0.710     0.733     0.721        60
+    Close Door 2      0.767     0.963     0.854        82
+     Open Fridge      0.731     0.613     0.667       230
+    Close Fridge      0.767     0.777     0.772       157
+ Open Dishwasher      0.399     0.770     0.526       100
+Close Dishwasher      0.440     0.513     0.473        78
+   Open Drawer 1      0.310     0.333     0.321        39
+  Close Drawer 1      0.600     0.643     0.621        42
+   Open Drawer 2      0.440     0.275     0.338        40
+  Close Drawer 2      0.455     0.370     0.408        27
+   Open Drawer 3      0.584     0.800     0.675        65
+  Close Drawer 3      0.443     0.717     0.548        60
+     Clean Table      0.602     0.626     0.614        99
+  Drink from Cup      0.767     0.569     0.653       318
+   Toggle Switch      0.842     0.449     0.585       107
+
+        accuracy                          0.898      9878
+       macro avg      0.624     0.643     0.621      9878
+    weighted avg      0.904     0.898     0.899      9878
+
+TEST  weighted F1 = 0.8986   macro F1 = 0.6208   accuracy = 0.8981   (best epoch 16, 42.7 min training)
+results saved to runs/C_w60_s0/
+ref_s0                      F1w=0.8873 F1m=0.5912 compare=baseline
+A_cnn_s0                    F1w=0.8629 F1m=0.4461 compare=ref_s0
+A_gru_s0                    F1w=0.8938 F1m=0.6093 compare=ref_s0
+B_conv1_s0                  F1w=0.8879 F1m=0.5755 compare=ref_s0
+B_conv2_s0                  F1w=0.8989 F1m=0.6347 compare=ref_s0
+C_w20_s0                    F1w=0.8908 F1m=0.5814 compare=ref_s0
+C_w60_s0                    F1w=0.8986 F1m=0.6208 compare=ref_s0
+Saved workshop_comparison.csv (deltas are score differences, not percentage changes).

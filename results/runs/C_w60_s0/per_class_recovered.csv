@@ -1,0 +1,19 @@
+activity,precision,recall,f1,support
+Null,0.951,0.949,0.95,8223
+Open Door 1,0.617,0.638,0.627,58
+Open Door 2,0.811,0.828,0.819,93
+Close Door 1,0.71,0.733,0.721,60
+Close Door 2,0.767,0.963,0.854,82
+Open Fridge,0.731,0.613,0.667,230
+Close Fridge,0.767,0.777,0.772,157
+Open Dishwasher,0.399,0.77,0.526,100
+Close Dishwasher,0.44,0.513,0.473,78
+Open Drawer 1,0.31,0.333,0.321,39
+Close Drawer 1,0.6,0.643,0.621,42
+Open Drawer 2,0.44,0.275,0.338,40
+Close Drawer 2,0.455,0.37,0.408,27
+Open Drawer 3,0.584,0.8,0.675,65
+Close Drawer 3,0.443,0.717,0.548,60
+Clean Table,0.602,0.626,0.614,99
+Drink from Cup,0.767,0.569,0.653,318
+Toggle Switch,0.842,0.449,0.585,107
