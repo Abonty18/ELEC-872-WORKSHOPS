@@ -1,0 +1,14 @@
+run,part,seed,compare_with,weighted_F1,macro_F1,accuracy,delta_weighted_F1,delta_macro_F1,parameters,best_epoch,training_minutes,window,n_conv,dropout,weight_decay,augmentation,loss,warmup_epochs
+ref_s0,ref,0,baseline,0.887289,0.591189,0.889788,,,3965778,38,17.779274,24,4,0.5,0.0,False,cross_entropy,0
+A_cnn_s0,A,0,ref_s0,0.862902,0.446128,0.874823,-0.024387,-0.145061,7486546,29,13.110393,24,4,0.5,0.0,False,cross_entropy,0
+A_gru_s0,A,0,ref_s0,0.893818,0.60926,0.894944,0.006529,0.018071,2990418,22,12.39502,24,4,0.5,0.0,False,cross_entropy,0
+B_conv1_s0,B,0,ref_s0,0.887949,0.575516,0.886855,0.00066,-0.015673,3904146,25,6.976684,24,1,0.5,0.0,False,cross_entropy,0
+B_conv2_s0,B,0,ref_s0,0.898938,0.634658,0.901011,0.011649,0.043469,3924690,23,9.669343,24,2,0.5,0.0,False,cross_entropy,0
+C_w20_s0,C,0,ref_s0,0.890831,0.581354,0.889507,0.003541,-0.009834,3965778,25,9.880594,20,4,0.5,0.0,False,cross_entropy,0
+C_w60_s0,C,0,ref_s0,0.898572,0.62077,0.898056,0.011282,0.029582,3965778,16,42.680967,60,4,0.5,0.0,False,cross_entropy,0
+D_ref_s0,D,0,baseline,0.887293,0.573922,0.889687,,,3965778,42,19.340495,24,4,0.5,0.0001,True,cross_entropy,0
+D_no_dropout_s0,D,0,D_ref_s0,0.888145,0.586122,0.890799,0.000852,0.0122,3965778,46,20.366791,24,4,0.0,0.0001,True,cross_entropy,0
+D_no_weight_decay_s0,D,0,D_ref_s0,0.889611,0.57621,0.891001,0.002317,0.002288,3965778,43,19.423868,24,4,0.5,0.0,True,cross_entropy,0
+D_no_augmentation_s0,D,0,D_ref_s0,0.884266,0.565699,0.884125,-0.003027,-0.008223,3965778,37,17.468224,24,4,0.5,0.0001,False,cross_entropy,0
+E_warmup5_s0,E,0,ref_s0,0.889665,0.60091,0.892012,0.002375,0.009721,3965778,57,23.671057,24,4,0.5,0.0,False,cross_entropy,5
+F_focal_s0,F,0,ref_s0,0.894372,0.587344,0.894237,0.007083,-0.003845,3965778,97,30.647065,24,4,0.5,0.0,False,focal,0

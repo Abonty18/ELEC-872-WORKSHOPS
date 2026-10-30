@@ -1,0 +1,19 @@
+activity,support,reference_f1,focal_f1,focal_minus_reference_f1,two_conv_f1
+Null,8235,0.946,0.95,0.004,0.95
+Open Door 1,58,0.612,0.587,-0.025,0.714
+Open Door 2,93,0.846,0.885,0.039,0.924
+Close Door 1,60,0.639,0.667,0.028,0.651
+Close Door 2,82,0.85,0.856,0.006,0.888
+Open Fridge,230,0.598,0.673,0.075,0.641
+Close Fridge,157,0.771,0.692,-0.079,0.733
+Open Dishwasher,100,0.526,0.552,0.026,0.542
+Close Dishwasher,78,0.478,0.487,0.009,0.476
+Open Drawer 1,39,0.424,0.354,-0.07,0.568
+Close Drawer 1,42,0.406,0.44,0.034,0.415
+Open Drawer 2,40,0.27,0.297,0.027,0.597
+Close Drawer 2,27,0.4,0.31,-0.09,0.372
+Open Drawer 3,65,0.667,0.608,-0.059,0.547
+Close Drawer 3,60,0.537,0.438,-0.099,0.517
+Clean Table,99,0.517,0.548,0.031,0.556
+Drink from Cup,318,0.532,0.641,0.109,0.639
+Toggle Switch,107,0.622,0.588,-0.034,0.693
