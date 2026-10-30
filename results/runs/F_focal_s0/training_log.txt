@@ -1,0 +1,144 @@
+Running F_focal; comparison baseline: ref
+[F_focal_s0] device=cuda  windows train/val/test = 41399/5076/9890  channels=113  classes=18
+parameters: 3,965,778
+epoch   1  lr 0.001  train_loss[focal] 0.7422  val_CE 0.6822  val_F1w 0.7946  val_F1m 0.2481  (20s) *
+epoch   2  lr 0.001  train_loss[focal] 0.3580  val_CE 0.5303  val_F1w 0.8143  val_F1m 0.2969  (39s) *
+epoch   3  lr 0.001  train_loss[focal] 0.2768  val_CE 0.5407  val_F1w 0.8012  val_F1m 0.2436  (58s)
+epoch   4  lr 0.001  train_loss[focal] 0.2399  val_CE 0.5450  val_F1w 0.8325  val_F1m 0.3647  (77s) *
+epoch   5  lr 0.001  train_loss[focal] 0.2162  val_CE 0.5427  val_F1w 0.8249  val_F1m 0.3389  (95s)
+epoch   6  lr 0.001  train_loss[focal] 0.1953  val_CE 0.5112  val_F1w 0.8347  val_F1m 0.3809  (114s) *
+epoch   7  lr 0.001  train_loss[focal] 0.1796  val_CE 0.4557  val_F1w 0.8548  val_F1m 0.4399  (133s) *
+epoch   8  lr 0.001  train_loss[focal] 0.1704  val_CE 0.4669  val_F1w 0.8509  val_F1m 0.4296  (152s)
+epoch   9  lr 0.001  train_loss[focal] 0.1606  val_CE 0.4462  val_F1w 0.8459  val_F1m 0.4207  (170s)
+epoch  10  lr 0.001  train_loss[focal] 0.1522  val_CE 0.4519  val_F1w 0.8501  val_F1m 0.4184  (189s)
+epoch  11  lr 0.001  train_loss[focal] 0.1450  val_CE 0.4677  val_F1w 0.8594  val_F1m 0.4540  (207s) *
+epoch  12  lr 0.001  train_loss[focal] 0.1415  val_CE 0.4278  val_F1w 0.8622  val_F1m 0.4775  (226s) *
+epoch  13  lr 0.001  train_loss[focal] 0.1366  val_CE 0.4670  val_F1w 0.8623  val_F1m 0.4740  (245s) *
+epoch  14  lr 0.001  train_loss[focal] 0.1301  val_CE 0.4569  val_F1w 0.8626  val_F1m 0.4618  (264s) *
+epoch  15  lr 0.001  train_loss[focal] 0.1331  val_CE 0.4728  val_F1w 0.8695  val_F1m 0.5134  (282s) *
+epoch  16  lr 0.001  train_loss[focal] 0.1278  val_CE 0.4387  val_F1w 0.8726  val_F1m 0.5160  (301s) *
+epoch  17  lr 0.001  train_loss[focal] 0.1248  val_CE 0.4764  val_F1w 0.8684  val_F1m 0.5032  (320s)
+epoch  18  lr 0.001  train_loss[focal] 0.1183  val_CE 0.4285  val_F1w 0.8670  val_F1m 0.5073  (338s)
+epoch  19  lr 0.001  train_loss[focal] 0.1224  val_CE 0.4947  val_F1w 0.8548  val_F1m 0.4588  (357s)
+epoch  20  lr 0.001  train_loss[focal] 0.1179  val_CE 0.4287  val_F1w 0.8628  val_F1m 0.5034  (376s)
+epoch  21  lr 0.001  train_loss[focal] 0.1132  val_CE 0.5147  val_F1w 0.8436  val_F1m 0.4736  (394s)
+epoch  22  lr 0.001  train_loss[focal] 0.1137  val_CE 0.5924  val_F1w 0.8415  val_F1m 0.4326  (413s)
+epoch  23  lr 0.001  train_loss[focal] 0.1115  val_CE 0.4393  val_F1w 0.8629  val_F1m 0.4947  (431s)
+epoch  24  lr 0.001  train_loss[focal] 0.1121  val_CE 0.4413  val_F1w 0.8629  val_F1m 0.4883  (450s)
+epoch  25  lr 0.001  train_loss[focal] 0.1086  val_CE 0.4219  val_F1w 0.8629  val_F1m 0.5060  (468s)
+epoch  26  lr 0.001  train_loss[focal] 0.1078  val_CE 0.4833  val_F1w 0.8623  val_F1m 0.4885  (487s)
+epoch  27  lr 0.001  train_loss[focal] 0.1039  val_CE 0.5341  val_F1w 0.8604  val_F1m 0.5264  (505s)
+epoch  28  lr 0.001  train_loss[focal] 0.1076  val_CE 0.4516  val_F1w 0.8602  val_F1m 0.4888  (524s)
+epoch  29  lr 0.001  train_loss[focal] 0.1024  val_CE 0.4057  val_F1w 0.8803  val_F1m 0.5490  (542s) *
+epoch  30  lr 0.001  train_loss[focal] 0.1032  val_CE 0.5135  val_F1w 0.8595  val_F1m 0.5158  (561s)
+epoch  31  lr 0.001  train_loss[focal] 0.1031  val_CE 0.4411  val_F1w 0.8630  val_F1m 0.5031  (579s)
+epoch  32  lr 0.001  train_loss[focal] 0.1024  val_CE 0.4566  val_F1w 0.8715  val_F1m 0.5155  (598s)
+epoch  33  lr 0.001  train_loss[focal] 0.1034  val_CE 0.4497  val_F1w 0.8678  val_F1m 0.5210  (616s)
+epoch  34  lr 0.001  train_loss[focal] 0.0983  val_CE 0.4914  val_F1w 0.8598  val_F1m 0.5006  (635s)
+epoch  35  lr 0.001  train_loss[focal] 0.0963  val_CE 0.4612  val_F1w 0.8768  val_F1m 0.5373  (653s)
+epoch  36  lr 0.001  train_loss[focal] 0.0950  val_CE 0.5241  val_F1w 0.8525  val_F1m 0.5097  (671s)
+epoch  37  lr 0.001  train_loss[focal] 0.0969  val_CE 0.5042  val_F1w 0.8550  val_F1m 0.5069  (690s)
+epoch  38  lr 0.001  train_loss[focal] 0.0956  val_CE 0.4541  val_F1w 0.8692  val_F1m 0.5283  (708s)
+epoch  39  lr 0.001  train_loss[focal] 0.0903  val_CE 0.4771  val_F1w 0.8637  val_F1m 0.5369  (727s)
+epoch  40  lr 0.001  train_loss[focal] 0.0921  val_CE 0.5158  val_F1w 0.8574  val_F1m 0.5040  (745s)
+epoch  41  lr 0.001  train_loss[focal] 0.0913  val_CE 0.4480  val_F1w 0.8676  val_F1m 0.5132  (763s)
+epoch  42  lr 0.001  train_loss[focal] 0.0886  val_CE 0.5107  val_F1w 0.8597  val_F1m 0.5027  (782s)
+epoch  43  lr 0.001  train_loss[focal] 0.0886  val_CE 0.5169  val_F1w 0.8588  val_F1m 0.5069  (800s)
+epoch  44  lr 0.001  train_loss[focal] 0.0880  val_CE 0.4403  val_F1w 0.8739  val_F1m 0.5354  (818s)
+epoch  45  lr 0.001  train_loss[focal] 0.0886  val_CE 0.4064  val_F1w 0.8836  val_F1m 0.5602  (837s) *
+epoch  46  lr 0.001  train_loss[focal] 0.0909  val_CE 0.4593  val_F1w 0.8729  val_F1m 0.5348  (855s)
+epoch  47  lr 0.001  train_loss[focal] 0.0890  val_CE 0.5650  val_F1w 0.8566  val_F1m 0.5144  (873s)
+epoch  48  lr 0.001  train_loss[focal] 0.0856  val_CE 0.4405  val_F1w 0.8798  val_F1m 0.5480  (892s)
+epoch  49  lr 0.001  train_loss[focal] 0.0851  val_CE 0.4647  val_F1w 0.8790  val_F1m 0.5629  (910s)
+epoch  50  lr 0.001  train_loss[focal] 0.0830  val_CE 0.5399  val_F1w 0.8623  val_F1m 0.5303  (928s)
+epoch  51  lr 0.001  train_loss[focal] 0.0818  val_CE 0.4484  val_F1w 0.8804  val_F1m 0.5549  (947s)
+epoch  52  lr 0.001  train_loss[focal] 0.0828  val_CE 0.5163  val_F1w 0.8679  val_F1m 0.5229  (965s)
+epoch  53  lr 0.001  train_loss[focal] 0.0792  val_CE 0.4641  val_F1w 0.8737  val_F1m 0.5555  (983s)
+epoch  54  lr 0.001  train_loss[focal] 0.0783  val_CE 0.4583  val_F1w 0.8801  val_F1m 0.5457  (1002s)
+epoch  55  lr 0.001  train_loss[focal] 0.0819  val_CE 0.4575  val_F1w 0.8759  val_F1m 0.5585  (1020s)
+epoch  56  lr 0.001  train_loss[focal] 0.0800  val_CE 0.4481  val_F1w 0.8822  val_F1m 0.5446  (1038s)
+epoch  57  lr 0.001  train_loss[focal] 0.0785  val_CE 0.5002  val_F1w 0.8699  val_F1m 0.5442  (1056s)
+epoch  58  lr 0.001  train_loss[focal] 0.0762  val_CE 0.5087  val_F1w 0.8706  val_F1m 0.5439  (1075s)
+epoch  59  lr 0.001  train_loss[focal] 0.0743  val_CE 0.5459  val_F1w 0.8650  val_F1m 0.5207  (1093s)
+epoch  60  lr 0.001  train_loss[focal] 0.0751  val_CE 0.4587  val_F1w 0.8765  val_F1m 0.5578  (1111s)
+epoch  61  lr 0.001  train_loss[focal] 0.0724  val_CE 0.4750  val_F1w 0.8847  val_F1m 0.5704  (1130s) *
+epoch  62  lr 0.001  train_loss[focal] 0.0719  val_CE 0.4680  val_F1w 0.8695  val_F1m 0.5248  (1148s)
+epoch  63  lr 0.001  train_loss[focal] 0.0722  val_CE 0.4825  val_F1w 0.8716  val_F1m 0.5543  (1166s)
+epoch  64  lr 0.001  train_loss[focal] 0.0727  val_CE 0.5379  val_F1w 0.8817  val_F1m 0.5753  (1184s)
+epoch  65  lr 0.001  train_loss[focal] 0.0702  val_CE 0.4898  val_F1w 0.8805  val_F1m 0.5597  (1203s)
+epoch  66  lr 0.001  train_loss[focal] 0.0697  val_CE 0.4791  val_F1w 0.8739  val_F1m 0.5724  (1221s)
+epoch  67  lr 0.001  train_loss[focal] 0.0700  val_CE 0.4984  val_F1w 0.8802  val_F1m 0.5567  (1239s)
+epoch  68  lr 0.001  train_loss[focal] 0.0723  val_CE 0.5751  val_F1w 0.8698  val_F1m 0.5343  (1257s)
+epoch  69  lr 0.001  train_loss[focal] 0.0702  val_CE 0.5950  val_F1w 0.8745  val_F1m 0.5391  (1276s)
+epoch  70  lr 0.001  train_loss[focal] 0.0704  val_CE 0.5604  val_F1w 0.8678  val_F1m 0.5224  (1294s)
+epoch  71  lr 0.001  train_loss[focal] 0.0710  val_CE 0.4941  val_F1w 0.8910  val_F1m 0.5879  (1312s) *
+epoch  72  lr 0.001  train_loss[focal] 0.0681  val_CE 0.4611  val_F1w 0.8727  val_F1m 0.5481  (1330s)
+epoch  73  lr 0.001  train_loss[focal] 0.0680  val_CE 0.5452  val_F1w 0.8741  val_F1m 0.5356  (1348s)
+epoch  74  lr 0.001  train_loss[focal] 0.0693  val_CE 0.5536  val_F1w 0.8651  val_F1m 0.5630  (1367s)
+epoch  75  lr 0.001  train_loss[focal] 0.0667  val_CE 0.5173  val_F1w 0.8788  val_F1m 0.5689  (1385s)
+epoch  76  lr 0.001  train_loss[focal] 0.0674  val_CE 0.4888  val_F1w 0.8813  val_F1m 0.5708  (1403s)
+epoch  77  lr 0.001  train_loss[focal] 0.0644  val_CE 0.4698  val_F1w 0.8803  val_F1m 0.5488  (1421s)
+epoch  78  lr 0.001  train_loss[focal] 0.0668  val_CE 0.4668  val_F1w 0.8772  val_F1m 0.5649  (1439s)
+epoch  79  lr 0.001  train_loss[focal] 0.0651  val_CE 0.4913  val_F1w 0.8725  val_F1m 0.5537  (1458s)
+epoch  80  lr 0.001  train_loss[focal] 0.0651  val_CE 0.6460  val_F1w 0.8665  val_F1m 0.5356  (1476s)
+epoch  81  lr 0.001  train_loss[focal] 0.0652  val_CE 0.4644  val_F1w 0.8786  val_F1m 0.5813  (1494s)
+epoch  82  lr 0.001  train_loss[focal] 0.0650  val_CE 0.4777  val_F1w 0.8756  val_F1m 0.5608  (1512s)
+epoch  83  lr 0.001  train_loss[focal] 0.0648  val_CE 0.5470  val_F1w 0.8719  val_F1m 0.5295  (1530s)
+epoch  84  lr 0.001  train_loss[focal] 0.0666  val_CE 0.5476  val_F1w 0.8720  val_F1m 0.5552  (1549s)
+epoch  85  lr 0.001  train_loss[focal] 0.0655  val_CE 0.5715  val_F1w 0.8683  val_F1m 0.5263  (1567s)
+epoch  86  lr 0.001  train_loss[focal] 0.0635  val_CE 0.5619  val_F1w 0.8831  val_F1m 0.5731  (1585s)
+epoch  87  lr 0.001  train_loss[focal] 0.0628  val_CE 0.5877  val_F1w 0.8768  val_F1m 0.5511  (1603s)
+epoch  88  lr 0.001  train_loss[focal] 0.0630  val_CE 0.5531  val_F1w 0.8914  val_F1m 0.5947  (1621s) *
+epoch  89  lr 0.001  train_loss[focal] 0.0612  val_CE 0.5608  val_F1w 0.8875  val_F1m 0.5936  (1639s)
+epoch  90  lr 0.001  train_loss[focal] 0.0641  val_CE 0.5988  val_F1w 0.8753  val_F1m 0.5530  (1658s)
+epoch  91  lr 0.001  train_loss[focal] 0.0669  val_CE 0.5490  val_F1w 0.8672  val_F1m 0.5618  (1676s)
+epoch  92  lr 0.001  train_loss[focal] 0.0642  val_CE 0.5886  val_F1w 0.8884  val_F1m 0.5965  (1694s)
+epoch  93  lr 0.001  train_loss[focal] 0.0608  val_CE 0.5263  val_F1w 0.8802  val_F1m 0.5816  (1712s)
+epoch  94  lr 0.001  train_loss[focal] 0.0614  val_CE 0.5678  val_F1w 0.8760  val_F1m 0.5615  (1730s)
+epoch  95  lr 0.001  train_loss[focal] 0.0598  val_CE 0.5499  val_F1w 0.8751  val_F1m 0.5503  (1748s)
+epoch  96  lr 0.001  train_loss[focal] 0.0610  val_CE 0.5080  val_F1w 0.8721  val_F1m 0.5707  (1766s)
+epoch  97  lr 0.001  train_loss[focal] 0.0595  val_CE 0.5897  val_F1w 0.8933  val_F1m 0.5940  (1784s) *
+epoch  98  lr 0.001  train_loss[focal] 0.0603  val_CE 0.5182  val_F1w 0.8805  val_F1m 0.5800  (1803s)
+epoch  99  lr 0.001  train_loss[focal] 0.0605  val_CE 0.4825  val_F1w 0.8875  val_F1m 0.5903  (1821s)
+epoch 100  lr 0.001  train_loss[focal] 0.0621  val_CE 0.5234  val_F1w 0.8727  val_F1m 0.5617  (1839s)
+                  precision    recall  f1-score   support
+
+            Null      0.948     0.952     0.950      8235
+     Open Door 1      0.627     0.552     0.587        58
+     Open Door 2      0.900     0.871     0.885        93
+    Close Door 1      0.651     0.683     0.667        60
+    Close Door 2      0.786     0.939     0.856        82
+     Open Fridge      0.694     0.652     0.673       230
+    Close Fridge      0.844     0.586     0.692       157
+ Open Dishwasher      0.504     0.610     0.552       100
+Close Dishwasher      0.487     0.487     0.487        78
+   Open Drawer 1      0.270     0.513     0.354        39
+  Close Drawer 1      0.379     0.524     0.440        42
+   Open Drawer 2      0.246     0.375     0.297        40
+  Close Drawer 2      0.290     0.333     0.310        27
+   Open Drawer 3      0.516     0.738     0.608        65
+  Close Drawer 3      0.583     0.350     0.438        60
+     Clean Table      0.851     0.404     0.548        99
+  Drink from Cup      0.644     0.638     0.641       318
+   Toggle Switch      0.688     0.514     0.588       107
+
+        accuracy                          0.894      9890
+       macro avg      0.606     0.596     0.587      9890
+    weighted avg      0.899     0.894     0.894      9890
+
+TEST  weighted F1 = 0.8944   macro F1 = 0.5873   accuracy = 0.8942   (best epoch 97, 30.6 min training)
+results saved to runs/F_focal_s0/
+ref_s0                      F1w=0.8873 F1m=0.5912 compare=baseline
+A_cnn_s0                    F1w=0.8629 F1m=0.4461 compare=ref_s0
+A_gru_s0                    F1w=0.8938 F1m=0.6093 compare=ref_s0
+B_conv1_s0                  F1w=0.8879 F1m=0.5755 compare=ref_s0
+B_conv2_s0                  F1w=0.8989 F1m=0.6347 compare=ref_s0
+C_w20_s0                    F1w=0.8908 F1m=0.5814 compare=ref_s0
+C_w60_s0                    F1w=0.8986 F1m=0.6208 compare=ref_s0
+D_ref_s0                    F1w=0.8873 F1m=0.5739 compare=baseline
+D_no_dropout_s0             F1w=0.8881 F1m=0.5861 compare=D_ref_s0
+D_no_weight_decay_s0        F1w=0.8896 F1m=0.5762 compare=D_ref_s0
+D_no_augmentation_s0        F1w=0.8843 F1m=0.5657 compare=D_ref_s0
+E_warmup5_s0                F1w=0.8897 F1m=0.6009 compare=ref_s0
+F_focal_s0                  F1w=0.8944 F1m=0.5873 compare=ref_s0
+Saved workshop_comparison.csv (deltas are score differences, not percentage changes).
