@@ -1,0 +1,6 @@
+data/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+runs/**/best_model.pt
+.DS_Store
